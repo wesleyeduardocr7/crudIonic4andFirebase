@@ -1,0 +1,13 @@
+ionic start ionic-ferebase blank --type=angular
+
+npm i firebase@5.7.0 angularfire2 -S
+
+ionic g page pages/todoDetails
+
+ionic g s services/todo
+
+ionic cordova platform add android
+
+ionic cordova build android
+
+ionic cordova resources android
